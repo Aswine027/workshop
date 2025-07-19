@@ -1,0 +1,120 @@
+/* body {
+  font-family: sans-serif;
+  background: #e0ecff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+} */
+
+.container {
+  background: white;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Password + Generate row */
+.password-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+/* Generate Password Button */
+.generate-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  flex-shrink: 0;
+  width: 200px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+.generate-btn:hover {
+  background-color: #218838;
+}
+
+.entry-list {
+  margin-top: 30px;
+}
+
+.entry {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.entry input {
+  margin-top: 5px;
+  font-family: monospace;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Delete button inside entry */
+.entry button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 33px;
+}
+
+.entry button:hover {
+  background-color: #c82333;
+}
